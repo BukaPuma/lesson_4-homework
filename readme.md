@@ -4,6 +4,7 @@
 
 h_header = 10vh
 theme = 'light'
+
     header-color = #ff99ff
     border-color = #f070f0
     sider-color = #99ffff
@@ -14,6 +15,7 @@ if (theme == 'dark')
     sider-color = #559999
 
 .main
+
     display flex
     flex-direction row
     height (100vh - h_header)
